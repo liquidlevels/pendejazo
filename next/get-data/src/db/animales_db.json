@@ -1,0 +1,142 @@
+[
+  {
+    "nombre": "León",
+    "nombre científico": "Panthera leo",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "Sabana africana"
+  },
+  {
+    "nombre": "Elefante africano",
+    "nombre científico": "Loxodonta africana",
+    "tipo": "Mamífero",
+    "dieta": "Herbívoro",
+    "hábitat": "Sabana africana"
+  },
+  {
+    "nombre": "Jirafa",
+    "nombre científico": "Giraffa camelopardalis",
+    "tipo": "Mamífero",
+    "dieta": "Herbívoro",
+    "hábitat": "Sabana africana"
+  },
+  {
+    "nombre": "Gorila",
+    "nombre científico": "Gorilla gorilla",
+    "tipo": "Mamífero",
+    "dieta": "Herbívoro",
+    "hábitat": "Selva africana"
+  },
+  {
+    "nombre": "Tigre de Bengala",
+    "nombre científico": "Panthera tigris tigris",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "Selvas de India y Bangladesh"
+  },
+  {
+    "nombre": "Oso polar",
+    "nombre científico": "Ursus maritimus",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "Regiones árticas"
+  },
+  {
+    "nombre": "Pingüino emperador",
+    "nombre científico": "Aptenodytes forsteri",
+    "tipo": "Ave",
+    "dieta": "Carnívoro",
+    "hábitat": "Antártida"
+  },
+  {
+    "nombre": "Águila calva",
+    "nombre científico": "Haliaeetus leucocephalus",
+    "tipo": "Ave",
+    "dieta": "Carnívoro",
+    "hábitat": "América del Norte"
+  },
+  {
+    "nombre": "Cocodrilo del Nilo",
+    "nombre científico": "Crocodylus niloticus",
+    "tipo": "Reptil",
+    "dieta": "Carnívoro",
+    "hábitat": "África"
+  },
+  {
+    "nombre": "Anaconda verde",
+    "nombre científico": "Eunectes murinus",
+    "tipo": "Reptil",
+    "dieta": "Carnívoro",
+    "hábitat": "Selva amazónica"
+  },
+  {
+    "nombre": "Tiburón blanco",
+    "nombre científico": "Carcharodon carcharias",
+    "tipo": "Pez",
+    "dieta": "Carnívoro",
+    "hábitat": "Océanos templados"
+  },
+  {
+    "nombre": "Ballena jorobada",
+    "nombre científico": "Megaptera novaeangliae",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "Océanos"
+  },
+  {
+    "nombre": "Delfín nariz de botella",
+    "nombre científico": "Tursiops truncatus",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "Océanos templados"
+  },
+  {
+    "nombre": "Orca",
+    "nombre científico": "Orcinus orca",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "Océanos"
+  },
+  {
+    "nombre": "Lobo gris",
+    "nombre científico": "Canis lupus",
+    "tipo": "Mamífero",
+    "dieta": "Carnívoro",
+    "hábitat": "América del Norte, Europa y Asia"
+  },
+  {
+    "nombre": "Zorro rojo",
+    "nombre científico": "Vulpes vulpes",
+    "tipo": "Mamífero",
+    "dieta": "Omnívoro",
+    "hábitat": "América del Norte, Europa, Asia y África"
+  },
+  {
+    "nombre": "Koala",
+    "nombre científico": "Phascolarctos cinereus",
+    "tipo": "Mamífero",
+    "dieta": "Herbívoro",
+    "hábitat": "Australia"
+  },
+  {
+    "nombre": "Canguro rojo",
+    "nombre científico": "Macropus rufus",
+    "tipo": "Mamífero",
+    "dieta": "Herbívoro",
+    "hábitat": "Australia"
+  },
+  {
+    "nombre": "Oso pardo",
+    "nombre científico": "Ursus arctos",
+    "tipo": "Mamífero",
+    "dieta": "Omnívoro",
+    "hábitat": "América del Norte, Europa y Asia"
+  },
+  {
+    "nombre": "Rinoceronte negro",
+    "nombre científico": "Diceros bicornis",
+    "tipo": "Mamífero",
+    "dieta": "Herbívoro",
+    "hábitat": "África"
+  }
+]

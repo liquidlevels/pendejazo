@@ -1,0 +1,130 @@
+auto close tag (13 mill downloads)
+auto rename tag (19 mill downloads)
+live server
+javascript es6 snippet (16 mill downloads)
+
+
+algo_con_snake_case
+
+patrones de dise;o html5
+
+header
+footer
+section
+aside
+main
+nav
+article
+
+22/08/2024
+preferentemente utilizar snake_case para los nombres
+class --> .name 
+id --> #name
+tag --> p {}
+
+PascalCase
+camelCase
+snake_case
+
+5 funciones de los arrays en js
+(unshift, push, splice, sort)
+tarea - investigar los operadores aritmeticos y logicos en js
+
+operadores logicos
+    && (and) u && o, regresa "u" si este se puede convertir en false, de otra forma 
+    regresa "o". Con boolenos si ambos son true, regresa true, de otra manera regresa 
+    false
+    || (or), algo || otro, si "algo" puede convertirse a true, regresa "algo", si no, 
+    regresa "otro". 
+      Si se trabaja con operadores booleanos, regresa true si alguno de los dos es true, 
+      si ambos son false, regresa false
+    ! (not), !algo, si algo puede convertirse en true, regresa false, de lo contrario 
+    regresa true
+    ?? (nullish), expr1 ?? expr2, regresa expr1 SOLO si no es null ni undefined, de otro 
+    modo, regresa expr2
+
+operadores aritmeticos
+  %  (residuo) 10 % 2, regresa el residuo entero al dividir los operandos
+  ++ (incremento) ++x o x++, agrega 1, si se utiliza de esta manera: ++2, asigna x = 3 y 
+  regresa 3, si se utiliza de esta otra forma: 2++, regresa 3 y despues asigna x = 3
+  -- (decremento) same as increment, duh
+  -  (negacion unaria) -10, regresa la negacion del operando, en este caso regresa -10
+  +  (positivo unario) +"3", +true, intenta convertir en numero el operando, si es que 
+  este aun no es un numero, en este caso +"3" = 3, +true = 1
+  ** (operador exponencial) 10 ** 3, calcula la base a la potencia del exponente 
+  (base^exponente), es decir 10 ** 3 = 1000
+
+
+  map
+reduce 
+filter
+join
+
+for 
+for in: string properties
+for of: 
+
+map: crea un nuevo array con los resultados de la funcion proporcionada, esta funcion se
+aplica a cada elemento del array
+
+parametros:
+  - element: elemento siendo procesado
+  - index: el indice del actual elemento
+  - array: arreglo que llamo la funcion map()
+
+reduce: funcion iterativa que suma todos los elementos, la cual empieza desde el indice 1, ascendiendo y los acumula en una sola variable, el resultado de la funcion callback pasa el resultado al siguiene callback como el invocador. El valor final del acumulador se vuelve el valor del return de reduce() 
+
+filter: metodo iterativo que llama a una callback function, la cual crea un shallow copy a partir de un array, filtrando los elementos que pasen la "prueba" (callback function) implementada por la funcion dada, si un elemento no pasa dicha "prueba" se queda fuera de la copia.
+
+shallow copy: copia de un objeto el cual sus propiedades comparten el mismo valor de origen. Esta copia es totalmente dependiente de l objeto del cual se esta copiando, entonces si el objeto origen cambia, la copia cambia.
+
+parametros: 
+	callback function:
+		- element: actual elemento que esta siendo procesado
+		- index: posicion actual del elemento que esta siendo procesado
+		- array: array sobre el cual se ha llamado la funcion filter() 
+
+join: crea un nuevo string a partir de concatenar todos los elementos de un array, separados por un string especifico (",", '-', '_', etc)
+por defecto los separa con comas ","
+de forma recursiva convierte cada elemento en un string, incluyendo otros arrays
+solo puedes controlar el separador de primer nivel, ejemplo:
+n = [[1,2,3,], [4,5,6], [7,8,9]]
+al llamar n.join("-"), solo los arrays se van a separar por "-" mientras que los elementos dentro de esos arrays se separan con ','
+
+5 funciones de javascript
+
+push: agrega n elementos al final de un arreglo, en el mismo orden que los hayas puesto 
+como parametros.
+
+shift: elimina el primer elemento de un array, es como pop(), pero invertido
+  
+
+unshift: agrega los elementos que quieras al inicio de un arreglo, igual que un push()
+  solo que en este caso los agrega al inicio.
+  - agrega n elementos, en el orden que los hayas puesto como parametros
+
+splice: cambia el contenido de un array, quitando o reemplazando elementos dentro o 
+agregando nuevos elementos in-place (modifica sin crear una copia). 
+nota, si no quieres que el array original mute, utiliza toSpliced()
+
+  parametros: 
+    - start: indice donde inicia,
+      * numeros negativos inician a partir del final de array.length
+      * si start < -array.length, se utiliza 0
+      * si start > array.length, nada se elimina, pero si al llamar la funcion, agregaste
+        elementos, los agregara igualmente al final del arreglo
+    - (opcional) deleteCount: numero entero indicando cuandos elementos quitar a partir
+      de start 
+    - (opcional) itemN: elementos que se agregan al array, empezando por start
+
+
+sort: sortea los elementos de un array in-place (modifica directamente el input, sin 
+necesidad de crear una copia de la estructura de datos) y regresa la referencia al mismo 
+array
+
+todo se converte en string, asi que se basa en la primer letra o numero del string, 
+por ejemplo en un caso donde 9 y 80 son enteros, 9 va antes porque es menor, pero en este
+caso "80" va antes que "9" porque se basa en el primer caracter, asi como "elote" va 
+antes que "pelota"
+
+nota, si no quieres que el array original mute, utiliza toSorted()
